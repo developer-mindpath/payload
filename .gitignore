@@ -11,6 +11,7 @@ AGENTS.local.md
 CLAUDE.local.md
 .claude/commands/*.local.md
 .claude/artifacts
+.worktrees/
 
 # Custom actions
 !.github/actions/**/dist
@@ -155,11 +156,9 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -345,3 +344,6 @@ test/azurestoragedata/
 
 
 licenses.csv
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
